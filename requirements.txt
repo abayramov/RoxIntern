@@ -3,4 +3,4 @@ psycopg2-binary
 requests
 openai
 solana==0.28.1
-solders==0.7.2
+solders==0.7.0

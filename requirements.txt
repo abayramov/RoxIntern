@@ -1,6 +1,6 @@
-python-telegram-bot
-psycopg2-binary
-requests
-openai
-solana
-solders
+python-telegram-bot==13.7
+psycopg2-binary==2.9.9
+requests==2.32.3
+openai==1.52.2
+solana==0.35.1
+solders==0.21.0

@@ -57,9 +57,9 @@ questions = [
 
 def start(update, context):
     welcome_message = (
-        "Hey, I'm Rockaway's new intern 🤓\n\n"
-        "They're making me hear out your pitch...\n\n"
-        "If I like it, you might just get a 30-minute call with our VC team.\n\n"
+        "Hey, I'm Analyst AI - the chief of all analysts at AnalystDAO 🤓\n\n"
+        "I'll ask a series of questions to learn more about your project... \n\n"
+        "If I like it, you you'll be invited to an exclusive TG group & get the chance to pitch to top VC investors \n\n"
         "Ready to dive in? Type /pitch to get started."
     )
     update.message.reply_text(welcome_message)

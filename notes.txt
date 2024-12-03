@@ -1,0 +1,59 @@
+
+Current State: 
+
+
+-- DONE --
+
+Analyst AI Script (Founder Facing) (Requirements / Changes):
+
+- Writing following fields to DB:
+    - Assign unique pitch ID, (used in later flows to connect founders w/VCs)
+    - Interest tracker (field will be filled in by Analyst's Assistant) 
+    - Interest tracker will guage interest from VC chat
+
+- "start" function: 
+    -  Change start-up message (for analystDAO)
+
+- Payment flow:
+    - Accept AnalystDAO tokens for founders to pitch
+    - Can be integrated later
+
+
+-- IN PROGRESS (Analyst Assistant) --
+
+Analyst Assistant Script (Investor Facing) (Requirements):
+
+- Seperate TG bot (Analyst Assistant) that is active in AnalystDAO
+- Listen to databse for new pitches
+- Send brief summary of rejected pitch (no further action)
+- For accepted pitches, send brief summary (inc. unqique pitch ID)
+- VCs can DM assistant to go through flow to be connected to founders
+- The flow will include VC specifying pitch ID and sending tokens to be connected
+- The script will be able to create TG group w/ VC and founder (or send links to TG group)
+- First, assistant bot will check if VC TG username is whitelisted
+- Assistant will also be able to on-boards new VCs be requiring them to stake 
+- Initially onboarding can be manual (just a text file with TG usernames will define whitelist)
+
+
+-- IN PROGRESS --
+
+Analyst's Intern AI Script (X / Twitter Facing) (Requirements):
+
+- 2 key types of posts: 
+    - Posting about area of interest
+    - Posting about pithches is has reviewed
+
+- Posting about area of interest
+    - Follows other influencial VCs, gathers recent posts to learn about upcoming / hot areas
+    - Gathers similar posts within AnalystDAO chat to form investment ideas in areas 
+    - Condences this information and posts engaging content on X
+
+- Posting about pitches it has reviewed
+    - Will monitor database for new pitches
+    - Will stiricaly comment on the pitches
+    - Attitude will be mixed between optimistic and cynical (like Analyst)
+
+- All of these types of posts will first have to be reviewed!
+    - This process will be done by Anar. 
+    - Script will send Tweet idea first to a TG group, which has to be reviewed before being posted
+
